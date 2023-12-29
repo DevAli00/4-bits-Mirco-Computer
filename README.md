@@ -4,7 +4,7 @@ A micro-computer project that excute basic logic operations on unsigned 4 bits n
 
 ## Overview
 
-## UAL (Unit-arithmetic/Logic)
+## ALU (Arithmetic/Logic unit)
 
 ## Registers
 

@@ -2,12 +2,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 
-entity tb_UAL is 
-end tb_UAL;
+entity tb_ALU is 
+end tb_ALU;
 
-architecture system of tb_UAL is 
+architecture system of tb_ALU is 
 
-component UAL 
+component ALU
 port(
 a_i, b_i : in std_logic_vector(3 downto 0);
 CODEOP_i : in std_logic_vector(2 downto 0);
@@ -22,7 +22,7 @@ signal COUT_o_s, A_MT_B_o_s, A_LT_B_o_s, A_EQ_B_o_s, ZERO_o_s: std_logic;
 begin
  
 --Design Under Test
-DUT :UAL 
+DUT : ALU
 port map(
 a_i => a_i_s,
 b_i => b_i_s,

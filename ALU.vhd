@@ -2,15 +2,15 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 
-entity UAL is 
+entity ALU is 
 port(
 a_i, b_i : in std_logic_vector(3 downto 0);
 CODEOP_i : in std_logic_vector(2 downto 0);
 RES_o : out std_logic_vector(3 downto 0);
 COUT_o, A_MT_B_o, A_LT_B_o, A_EQ_B_o, ZERO_o: out std_logic);
-end UAL;
+end ALU;
 
-architecture system of UAL is 
+architecture system of ALU is 
 
 signal RES_o_s : std_logic_vector(4 downto 0);
 begin 
