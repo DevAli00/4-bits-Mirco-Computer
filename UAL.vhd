@@ -69,8 +69,6 @@ begin
    end if;
  end process;
 
-
-
  process(A_i, B_i)
  begin
 
