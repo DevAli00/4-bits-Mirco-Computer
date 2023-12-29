@@ -8,7 +8,7 @@ A micro-computer project that excute basic logic operations on unsigned 4 bits n
 
 ## Registers
 
-## Registres Bank
+## Registers Bank
 
 ## Controller
 
