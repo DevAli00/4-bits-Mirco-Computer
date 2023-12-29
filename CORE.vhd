@@ -12,7 +12,7 @@ end core;
 
 architecture system of core is 
 
-component UAL
+component ALU
 port(
 a_i, b_i : in std_logic_vector(3 downto 0);
 CODEOP_i : in std_logic_vector(2 downto 0);
@@ -20,7 +20,7 @@ RES_o : out std_logic_vector(3 downto 0);
 COUT_o, A_MT_B_o, A_LT_B_o, A_EQ_B_o, ZERO_o: out std_logic);
 end component;
 
-component Registre
+component REGN
 generic(N: integer := 4 );
 port( 
 CLK_i, RESETn_i, CE_i :  in std_logic;
