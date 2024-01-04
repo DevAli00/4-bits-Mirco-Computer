@@ -59,8 +59,6 @@ _N.B : RES = Result_
 | R3  |  10  |
 | R4  |  11  |
 
-## Registers Bank
-
 ## Controller
 
 ## Implementation on the FPGA Board
