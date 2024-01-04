@@ -10,7 +10,7 @@ A micro-computer project that excute basic logic operations on unsigned 4 bits n
 | ----- | ----- | - | --------- |
 | Desitnation Register |  Source Destination | Entries | CODE-OP |
 
-the Entries is a 1 bit number that indicates which values we will use (op = operation)
+the Entries is a 1 bit number that indicates which values we will use in the op _(op = operation)_
 | 0 | 1 |
 | - | - |
 | A_i op B_i | Ri op B_i |
@@ -27,8 +27,8 @@ for the last 3 digits look at the next part.
 
 ## ALU (Arithmetic/Logic unit)
 
-
-| Code OP | Operation |
+CODE_OP(Last 3 digits) represents the Arithmetic/Logic operation(op) between the two entry values.
+| Code OP | Op |
 | ---- | --------- |
 | 000  |  A AND B  |
 | 001  |  A NAND B |
