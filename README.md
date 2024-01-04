@@ -8,9 +8,9 @@ A micro-computer project that excute basic logic operations on unsigned 4 bits n
 **It's an 8 bits number :**
 | 7  6 | 5  4 | 3 | 2  1  0 |
 | ----- | ----- | - | --------- |
-| Desitnation Register |  Source Register | Entries | CODE-OP |
+| Desitnation Register |  Source Register | Entry | CODE-OP |
 
-the Entries is a 1 bit number that indicates which values we will use in the op _(op = operation)_
+the Entry is a 1 bit number that indicates which values we will use in the op _(op = operation)_
 |Entry (4th Bit) | 0 | 1 |
 | - | - | - |
 |Used Values | A_i op B_i | Ri op B_i |
