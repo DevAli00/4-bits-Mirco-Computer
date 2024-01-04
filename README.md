@@ -17,7 +17,7 @@ the entries is a 1 bit number that indicates which values we will use
 Ri => is a value from one of the registers indicated in the 4th and 5th bit of the instruction.
 
 Exemple : 
-if Instruction is : 11 01 1 111 
+if Instruction is : 11 01 1 111 \n
 The result will be saved in the register 4
 The entries will be R2 and B_i
 
