@@ -5,7 +5,7 @@ A micro-computer project that excute basic logic operations on unsigned 4 bits n
 ## Instruction 
 
 It's an 8 bits number : 
-| 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| 7  6 | 5  4 | 3 | 2  1  0 |
 | ----- | ----- | - | --------- |
 | Desitnation Register |  Source Destination | Entries | CODE-OP |
 
