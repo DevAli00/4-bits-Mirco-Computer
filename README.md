@@ -11,9 +11,9 @@ A micro-computer project that excute basic logic operations on unsigned 4 bits n
 | Desitnation Register |  Source Register | Entries | CODE-OP |
 
 the Entries is a 1 bit number that indicates which values we will use in the op _(op = operation)_
-| 0 | 1 |
-| - | - |
-| A_i op B_i | Ri op B_i |
+|Entry (4th Bit) | 0 | 1 |
+| - | - | - |
+|Used Values | A_i op B_i | Ri op B_i |
 
 Ri => is a value from one of the registers indicated in the 4th and 5th bit of the instruction (Section Registers for more details)
 
