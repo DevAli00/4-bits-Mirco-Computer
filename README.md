@@ -45,8 +45,11 @@ for the last 3 digits look at the next part.
 | 111  |  A - B    |
 
 A_MT_B_o => 1 if A > B, else 0
+
 A_LT_B_o => 1 if A < B, else 0
+
 A_EQ_B_o => 1 if A = B, else 0
+
 ZERO_o => 1 if RES = 0, else 0
 
 
