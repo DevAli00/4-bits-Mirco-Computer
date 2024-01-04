@@ -4,30 +4,25 @@ A micro-computer project that excute basic logic operations on unsigned 4 bits n
 ![Computer Architecture](Project_Architecture.png)
 
 ## Instruction 
-_op : operation_
-
-_RES : Results_
 
 **It's an 8 bits number :**
 | 7  6 | 5  4 | 3 | 2  1  0 |
 | ----- | ----- | - | --------- |
 | Desitnation Register |  Source Destination | Entries | CODE-OP |
 
-the entries is a 1 bit number that indicates which values we will use 
+the Entries is a 1 bit number that indicates which values we will use 
 | 0 | 1 |
 | - | - |
 | A_i op B_i | Ri op B_i |
 
-Ri => is a value from one of the registers indicated in the 4th and 5th bit of the instruction.
+Ri => is a value from one of the registers indicated in the 4th and 5th bit of the instruction (Section Registers for more details)
 
 **Exemple :**
 
 
-if Instruction is : 11 01 1 111 
+if Instruction is : **11 01 1 111**
 
-
-The result will be saved in the register 4
-The entries will be R2 and B_i
+The result will be saved in the register 4 and The entries will be R2 and B_i.
 
 for the last 3 digits look at the next part.
 
