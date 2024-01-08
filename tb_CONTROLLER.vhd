@@ -58,12 +58,12 @@ SEL_MUX1_o => SEL_MUX1_o_s);
     wait;
   end process;
 
-  -- Stimulus process
+  
   process
   begin
---    wait for 20 ns; -- Initial wait
-      RESETn_i_s <= '1'; -- Release reset
-      --wait for 5 ns;
+   
+      RESETn_i_s <= '1'; 
+      wait for 10 ns;
     
     -- Test scenario 0
     INST_i_s <= "01011111"; 
